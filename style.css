@@ -1,0 +1,513 @@
+body{
+    font-family: Lava Kannada;
+
+}
+.main-heading {
+    color: #000;
+    font-family: QTOptimum;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+}
+.sub-heading-main {
+    color: #000;
+    font-family: QTOptimum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 65px; */
+}
+
+.gap-top {
+    margin-top: 15% !important;
+}
+
+.grid-img {
+    border-radius: 10px;
+}
+
+.second-section-subheading {
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 31.341px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.704px;
+}
+
+.second-secrtion-mainheading {
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 54.16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15%;
+
+}
+
+.second-section-paragraph {
+    color: #787878;
+    font-family: Lava Kannada;
+    font-size: 20.307px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.section-second-img {
+    /* height: 540px; */
+    border-radius: 50% 0% 0% 0%;
+    object-fit: cover;
+}
+
+.know-more {
+    color: #0825EB;
+    text-align: center;
+    font-family: Lava Kannada;
+    font-size: 15.498px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    text-underline-position: below;
+}
+.under-line-knowmore{
+    border-bottom: 2px solid #0825EB;
+    width: 80px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 106px;
+    margin-top: 45px;
+
+}
+
+.button-font {
+    font-size: 20px;
+}
+.hr-big{
+    position: absolute;
+    width: 40%;
+    right: 180px;
+    height: 2px;
+    background-color: #0825EB;
+    /* margin-bottom: 50px; */
+}
+
+.accordian-heading-font {
+    color: #000 !important;
+    font-family: Lava Kannada;
+    font-size: 31.341px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.704px;
+}
+
+.accordian-sub-heading {
+    color: #787878;
+    font-family: Lava Kannada;
+    font-size: 20.307px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.box-bottom-heading {
+    padding: 21px 13px 18px 13px;
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: unset;
+
+}
+
+.img-heading-secfirst {
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btn {
+    color: #505050;
+    background-color: #F0F0F0;
+    border: 1px solid #A4A4A4;
+    border-radius: 27px;
+    margin-bottom: 14px;
+}
+
+
+/* ************************************************* */
+/* button CSS  */
+.btn-add-to-bag {
+    display: inline-block;
+    border: unset;
+    background-color: unset;
+    border-bottom: 2px solid black;
+
+}
+
+.btn-add-to-bag {
+    position: relative;
+    padding: 2px 10px;
+    color: #0825EB;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-add-to-bag svg {
+    fill: #0825EB;
+    margin-right: 9px;
+    margin-bottom: 2px;
+
+}
+
+.btn-add-to-bag:before,
+.btn-add-to-bag:after {
+    content: '';
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+}
+
+.btn-add-to-bag:hover {
+    color: #FFF;
+    transition-delay: .5s;
+}
+
+.btn-add-to-bag:hover svg {
+    fill: #FFF;
+    transition-delay: .5s;
+
+}
+
+.btn-add-to-bag:hover:before {
+    transition-delay: 0s;
+}
+
+.btn-add-to-bag:hover:after {
+    background: #0825EB;
+
+    transition-delay: .35s;
+}
+
+
+
+.btn-add-to-bag:before,
+.btn-add-to-bag:after {
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+
+.btn-add-to-bag:before {
+    top: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.btn-add-to-bag:after {
+    bottom: 0;
+    height: 0;
+}
+
+.btn-add-to-bag:hover:before,
+.btn-add-to-bag:hover:after {
+    height: 100%;
+}
+
+
+
+.btn-add-to-price {
+    display: inline-block;
+    border: unset;
+    background-color: unset;
+    border-bottom: 2px solid black;
+
+}
+
+.btn-add-to-price {
+    position: relative;
+    padding: 2px 10px;
+    /* padding-right: 3.1rem; */
+    font-size: 1rem;
+    color: #000;
+
+
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-add-to-price:before,
+.btn-add-to-price:after {
+    content: '';
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+}
+
+.btn-add-to-price:hover {
+    color: #000;
+    transition-delay: .5s;
+}
+
+.btn-add-to-price:hover:before {
+    transition-delay: 0s;
+}
+
+.btn-add-to-price:hover:after {
+    background: #F0F0F0;
+    transition-delay: .35s;
+}
+
+.line-set-svg svg{
+    position: relative;
+    right: 122px;
+
+}
+
+.btn-add-to-price:before,
+.btn-add-to-price:after {
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+
+.btn-add-to-price:before {
+    top: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.btn-add-to-price:after {
+    bottom: 0;
+    height: 0;
+}
+
+.btn-add-to-price:hover:before,
+.btn-add-to-price:hover:after {
+    height: 100%;
+}
+
+/* ******************************************************  */
+
+
+
+.set-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.different-product {
+    display: none;
+}
+
+.right-section img {
+    /* height: 50px; */
+    width: 100%;
+}
+
+.under-line {
+    border-bottom: 2px solid black;
+    width: 204px;
+}
+
+.text-right-custom {
+    text-align: right;
+
+}
+
+.accordian-img1 {
+    /* height: 100%; */
+    /* width: 477px; */
+    object-fit: cover;
+    border-radius: 0px 84px;
+}
+
+.container {
+    width: 90%;
+}
+
+img {
+    width: 100%;
+}
+
+.products :nth-child(1) {
+    margin-top: 10px;
+}
+
+.products :nth-child(2) {
+    margin-top: 10px;
+}
+
+.products :nth-child(3) {
+    margin-top: 10px;
+}
+
+.products :nth-child(4) {
+    margin-top: 10px;
+}
+
+/* **********************  */
+.third-sec-subheading {
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 41px;
+
+}
+
+
+/* ************************* */
+@media (min-width: 767px) {
+    .container {
+        max-width: 80%;
+
+    }
+
+    .products :nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .products :nth-child(4) {
+        margin-top: 20px;
+    }
+}
+
+/* *************************************** */
+/* .accordion-item>.accordion-header {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .accordion-item>.accordion-header button {
+    display: block;
+    padding: 10px 15px;
+  }
+  
+  .accordion-item>.accordion-header button:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .accordion-item>.accordion-header button[aria-expanded="true"] {
+    background-color: #eee;
+  }
+  
+  .accordion-item>.accordion-header button[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .accordion-item>.accordion-header [aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  } */
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+.accordion-body{
+    color: #787878;
+font-family: Lava Kannada;
+font-size: 20.307px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+/* *********************************************** */
+
+/* ************************************* */
+  
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  }
+
+  .accordion {
+    --bs-accordion-active-bg: none;
+    border: none;
+  }
+
+  .accordion-item {
+    border: none;
+    background-color: unset;
+  }
+
+  .accordion-button {
+    background-color: unset;
+    color: #000;
+font-family: Lava Kannada;
+font-size: 31.341px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.704px; /* 75.632% */
+    box-shadow: none;
+    border: none;
+    border-top: 1px #0825EB solid;
+}
+
+  .accordion-button:focus {
+    box-shadow: none;
+}
+  
+
+/* ********************************************* */
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+.bg-img-bg{
+    position: absolute;
+    top: 335px;
+    z-index: -9;
+    width: 29%;
+
+}
+.bg-img-bg2{
+    position: absolute;
+    top: 137rem;
+    z-index: -9;
+    width: 60%;
+
+
+}
